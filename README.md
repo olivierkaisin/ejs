@@ -57,6 +57,7 @@ for all the passed options.
   - `delimiter`       Character to use with angle brackets for open/close
   - `debug`           Output generated function body
   - `_with`           Whether or not to use `with() {}` constructs. If `false` then the locals will be stored in the `locals` object.
+  - `rmWhitespace`    Remove all safe-to-remove whitespace, including `\r`, leading and trailing whitespace. This also enables `-%>` new line slurping for all scriptlet tags.
 
 ## Tags
 
